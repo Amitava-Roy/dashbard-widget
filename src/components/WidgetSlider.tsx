@@ -59,7 +59,7 @@ export default function WidgetSlider({
     );
 
   return (
-    <div className="fixed inset-0 bg-blend-color-burn bg-opacity-10 z-50 flex justify-end">
+    <div className="fixed inset-0 bg-gray-400/20  backdrop-blur-xs z-50 flex justify-end">
       <div className="bg-white w-full max-w-full sm:max-w-md h-full shadow-lg flex flex-col">
         <div className="bg-indigo-900 text-white px-4 py-3 flex items-center justify-between">
           <h2 className="font-medium">Add Widget</h2>
